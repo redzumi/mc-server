@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "build"
+    "outDir": "build",
+    "esModuleInterop": true,
+    "target": "esnext",
+    "moduleResolution": "node"
   },
   "include": [
     "src"
