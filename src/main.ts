@@ -1,7 +1,14 @@
-import { scrapModeIds } from "./modules/scrap-mode-id";
+import { config as makeEnvs } from 'dotenv';
+import { getModsData, getApiClient, getProgressBar } from './utils';
 
-const main = () => {
-  scrapModeIds();
+const main = async () => {
+  makeEnvs();
+
+  const data = await getModsData();
+  const apiClient = getApiClient();
+  const progress = getProgressBar();
+
+  console.log(data);
 };
 
 main();
