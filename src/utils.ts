@@ -3,11 +3,19 @@ import axios from 'axios';
 import cliProgress from 'cli-progress';
 
 const DATA_FILE_PATH = './data/mods.json';
+const DOWNLOADS_FILE_PATH = './data/downloads.json';
 
 export const getModsData = async () => {
   const dataFile = await readFile(DATA_FILE_PATH, 'utf8');
   const rawData = JSON.parse(dataFile) || {};
   const data = rawData.filter(link => !!link.modId);
+
+  return data;
+};
+
+export const getDownloadsModData = async () => {
+  const dataFile = await readFile(DOWNLOADS_FILE_PATH, 'utf8');
+  const data = JSON.parse(dataFile) || {};
 
   return data;
 };
