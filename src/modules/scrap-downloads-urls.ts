@@ -6,19 +6,20 @@ import PQueue from 'p-queue';
 import { getModsData, getApiClient, getProgressBar } from '../utils';
 
 const DOWNLOADS_FILE_PATH = './data/downloads.json';
+const DELAY = 100;
 
 const getModFiles = async (apiClient: AxiosInstance, modId: number, queue: PQueue, onDone) => {
   try {
-    const params = { gameVersionTypeId: 70886 };
-    await delay(500);
+    // const params = { gameVersionTypeId: 70886 };
+    const params = { gameVersion: '1.16.5' };
+    await delay(DELAY);
 
     const resposne = await apiClient.get(`/v1/mods/${modId}/files`, { params });
     const files = resposne.data;
-    const sortedFiles = files.data.sort((a, b) => b.id - a.id);
 
-    onDone({ modId: modId, files: sortedFiles });
+    onDone({ modId: modId, files });
 
-    return sortedFiles;
+    return files;
   } catch (err) {
     queue.add(async () => {
       await getModFiles(apiClient, modId, queue, onDone);

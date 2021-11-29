@@ -64,10 +64,6 @@
     "modId": 233019
   },
   {
-    "link": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds",
-    "modId": 254284
-  },
-  {
     "link": "https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum",
     "modId": 268250
   },
@@ -322,5 +318,33 @@
   {
     "link": "https://www.curseforge.com/minecraft/mc-mods/the-rainforest",
     "modId": 508082
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/expandability",
+    "modId": 465066
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
+    "modId": 421850
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/blueprint",
+    "modId": 382216
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/collective",
+    "modId": 342584
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/observerlib",
+    "modId": 316833
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/structurize",
+    "modId": 298744
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/library-of-exile",
+    "modId": 398780
   }
 ]

@@ -28,7 +28,6 @@ https://www.curseforge.com/minecraft/mc-mods/abnormals-delight
 https://www.curseforge.com/minecraft/mc-mods/ferritecore
 https://www.curseforge.com/minecraft/mc-mods/performant
 https://www.curseforge.com/minecraft/mc-mods/ai-improvements
-https://www.curseforge.com/minecraft/mc-mods/ambientsounds
 https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum
 https://www.curseforge.com/minecraft/mc-mods/goblin-traders
 https://www.curseforge.com/minecraft/mc-mods/minecolonies
@@ -60,3 +59,10 @@ https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
 https://www.curseforge.com/minecraft/mc-mods/foodn-mouse
 https://www.curseforge.com/minecraft/mc-mods/suspicious-zombification
 https://www.curseforge.com/minecraft/mc-mods/christmas-festivity
+https://www.curseforge.com/minecraft/mc-mods/expandability
+https://www.curseforge.com/minecraft/mc-mods/yungs-api
+https://www.curseforge.com/minecraft/mc-mods/blueprint
+https://www.curseforge.com/minecraft/mc-mods/collective
+https://www.curseforge.com/minecraft/mc-mods/observerlib
+https://www.curseforge.com/minecraft/mc-mods/structurize
+https://www.curseforge.com/minecraft/mc-mods/library-of-exile

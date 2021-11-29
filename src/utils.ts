@@ -4,6 +4,7 @@ import cliProgress from 'cli-progress';
 
 const DATA_FILE_PATH = './data/mods.json';
 const DOWNLOADS_FILE_PATH = './data/downloads.json';
+const MODS_DATA_FILE_PATH = './data/mods_data.json';
 
 export const getModsData = async () => {
   const dataFile = await readFile(DATA_FILE_PATH, 'utf8');
@@ -15,6 +16,13 @@ export const getModsData = async () => {
 
 export const getDownloadsModData = async () => {
   const dataFile = await readFile(DOWNLOADS_FILE_PATH, 'utf8');
+  const data = JSON.parse(dataFile) || {};
+
+  return data;
+};
+
+export const getExtraModsData = async () => {
+  const dataFile = await readFile(MODS_DATA_FILE_PATH, 'utf8');
   const data = JSON.parse(dataFile) || {};
 
   return data;
