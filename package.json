@@ -8,7 +8,7 @@
     "build": "tsc",
     "prestart": "tsc",
     "start": "node build/main.js",
-    "tmp-server": "cp -r mc-server/ temp_server",
+    "tmp-server": "rm -rf temp_server && cp -r mc-server/ temp_server",
     "tmp-downloads": "cp -r downloads/ temp_server/mods",
     "pretmp-start": "cd temp_server && chmod +x start.sh",
     "tmp-start": "cd temp_server && ./start.sh"
