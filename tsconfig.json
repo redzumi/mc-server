@@ -3,9 +3,14 @@
     "outDir": "build",
     "esModuleInterop": true,
     "target": "esnext",
-    "moduleResolution": "node"
+    "module": "esnext",
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "transform": "typescript-transform-extensions",
+        "extensions": { ".ts": ".js" }
+      }
+    ]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
