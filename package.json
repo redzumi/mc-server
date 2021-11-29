@@ -7,7 +7,11 @@
     "prepare": "ts-patch install -s",
     "build": "tsc",
     "prestart": "tsc",
-    "start": "node build/main.js"
+    "start": "node build/main.js",
+    "tmp-server": "cp -r mc-server/ temp_server",
+    "tmp-downloads": "cp -r downloads/ temp_server/mods",
+    "pretmp-start": "cd temp_server && chmod +x start.sh",
+    "tmp-start": "cd temp_server && ./start.sh"
   },
   "license": "MIT",
   "dependencies": {
