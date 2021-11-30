@@ -92,10 +92,6 @@
     "modId": 426031
   },
   {
-    "link": "https://www.curseforge.com/minecraft/mc-mods/stardew-armory",
-    "modId": 547283
-  },
-  {
     "link": "https://www.curseforge.com/minecraft/mc-mods/nekoration",
     "modId": 508028
   },
@@ -134,10 +130,6 @@
   {
     "link": "https://www.curseforge.com/minecraft/mc-mods/immersive-engineering",
     "modId": 231951
-  },
-  {
-    "link": "https://www.curseforge.com/minecraft/mc-mods/betterend",
-    "modId": 413596
   },
   {
     "link": "https://www.curseforge.com/minecraft/mc-mods/feywild",
@@ -346,5 +338,21 @@
   {
     "link": "https://www.curseforge.com/minecraft/mc-mods/library-of-exile",
     "modId": 398780
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/libx",
+    "modId": 412525
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/flywheel",
+    "modId": 486392
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/citadel",
+    "modId": 331936
+  },
+  {
+    "link": "https://www.curseforge.com/minecraft/mc-mods/selene",
+    "modId": 331936
   }
 ]

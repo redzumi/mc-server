@@ -39,7 +39,6 @@ https://www.curseforge.com/minecraft/mc-mods/paragliders
 https://www.curseforge.com/minecraft/mc-mods/more-underground-structures
 https://www.curseforge.com/minecraft/mc-mods/the-afterlight
 https://www.curseforge.com/minecraft/mc-mods/the-rainforest
-https://www.curseforge.com/minecraft/mc-mods/betterend
 https://www.curseforge.com/minecraft/mc-mods/geckolib
 https://www.curseforge.com/minecraft/mc-mods/dark-caverns
 https://www.curseforge.com/minecraft/mc-mods/candylands
@@ -49,7 +48,6 @@ https://www.curseforge.com/minecraft/mc-mods/kobolds
 https://www.curseforge.com/minecraft/mc-mods/koopas-critters
 https://www.curseforge.com/minecraft/mc-mods/arkys-halloween-cemetery-mod-1-16-x
 https://www.curseforge.com/minecraft/mc-mods/craft-tools-from-anything
-https://www.curseforge.com/minecraft/mc-mods/stardew-armory
 https://www.curseforge.com/minecraft/mc-mods/curios
 https://www.curseforge.com/minecraft/mc-mods/nekoration
 https://www.curseforge.com/minecraft/mc-mods/patchouli
@@ -66,3 +64,8 @@ https://www.curseforge.com/minecraft/mc-mods/collective
 https://www.curseforge.com/minecraft/mc-mods/observerlib
 https://www.curseforge.com/minecraft/mc-mods/structurize
 https://www.curseforge.com/minecraft/mc-mods/library-of-exile
+https://www.curseforge.com/minecraft/mc-mods/libx
+https://www.curseforge.com/minecraft/mc-mods/flywheel
+https://www.curseforge.com/minecraft/mc-mods/citadel
+https://www.curseforge.com/minecraft/mc-mods/selene
+https://www.curseforge.com/minecraft/mc-mods/geckolib
